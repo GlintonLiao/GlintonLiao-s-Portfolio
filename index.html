@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Guotong Liao</title>
+    <meta name="author" content="Guotong Liao" />
+    <meta
+      name="description"
+      content="Guotong is a designer exploring various forms of of multimodal interaction."
+    />
+
+    <meta
+      name="keywords"
+      content="Guotong, liao, art , design, design,  design, ux design, art, graphic design, interaction design"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/srk5tly.css" />
+  </head>
+  <body onload="followMouse();">
+    <main>
+      <p>
+        <span class="bio">
+          Joseph is an interaction designer.
+          <!-- He is currently a student at the Carnegie Mellon
+          <a target="_blank" href="https://design.cmu.edu/">School of Design</a>
+          and
+          <a target="_blank" href="https://www.hcii.cmu.edu/"
+            >Human-Computer Interaction Institute</a
+          >. <br /><br />Previously at
+          <a target="_blank" href="https://www.apple.com/siri/">Apple</a>
+          [S’20], he now spends his time designing interfaces with
+          <a target="_blank" href="https://www.natural.ai"
+            >Brain Technologies</a
+          >
+          [F'20]. In an alternative life, he would like to be a furniture
+          designer or maybe a dog trainer. -->
+        </span>
+      </p>
+    </main>
+
+    <footer>
+      <!-- <p></p> -->
+      <!-- <a
+        target="_blank"
+        href="https://www.notion.so/Design-Archives-93be304932f64d3eb2500d6903915ce4"
+        >Project Archives</a
+      > -->
+      <a
+        target="_blank"
+        href="https://medium.com/swlh/if-conversational-assistants-could-enhance-human-conversation-2cfb048cfc60"
+        >Thinkspace</a
+      ><br />
+      <a target="_blank" href="https://www.josephz.me/reading-trends"
+        >Reading Trends</a
+      ><br />
+      <a target="_blank" href="https://design-portfolio-ft809uunh.vercel.app/"
+        >Other</a
+      >
+      <div>—</div>
+      <a target="_blank" href="https://www.linkedin.com/in/josephzme/">CV</a>
+    </footer>
+
+    <div class="wrap">
+      <div class="ball"></div>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"
+  ></script>
+  <script src="script/landing.js"></script>
+  <script src="script/description.js"></script>
+  <script>
+    jQuery(function ($) {
+      $("a").hover(
+        function () {
+          $(".ball").addClass("ballHighlighted");
+        },
+        function () {
+          $(".ball").removeClass("ballHighlighted");
+        }
+      );
+    });
+  </script>
+</html>
