@@ -65,7 +65,7 @@ html{font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans
 
 body{-webkit-text-size-adjust:100%}
 
-h1,h2,h3,h4,h5,h6{color:#111;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;line-height:normal;font-weight:900;margin:2.4rem 0 0.8rem 0}
+h1,h2,h3,h4,h5,h6{color:#303030;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;line-height:normal;font-weight:700;margin:2.4rem 0 0.8rem 0}
 
 h1{font-size:1.9rem}
 
@@ -73,11 +73,15 @@ h2{margin-top:4rem}
 
 h3{font-size:1.34em;margin-bottom:1.5rem}
 
-a{color:#111;text-decoration:none}
+p{color: #404040; font-weight: 100;}
+
+label{margin-bottom: 0,5rem; font-size: 17px; display: block;}
+
+a{color:#303030;text-decoration:none}
 
 a:hover{background-color:#FFEDBB}
 
-blockquote{color:#444;margin:.8rem 0;padding:.5rem 1rem}
+blockquote{color:#444;margin:2rem 0;padding:.5rem 1rem}
 
 @media (min-width: 600px) {
     blockquote{padding:0 5rem 0 1.25rem}
@@ -87,7 +91,9 @@ blockquote:before{content:"“";display:block;font-family:times;font-style:norma
 
 ul,ol{margin:0 0 2rem -1.1rem;font-size:1.1rem;line-height:1.6}
 
-img{margin:0 0 0.6rem;max-width:100%}
+img{margin:0 0 0.6rem; max-width:100%; text-align:center }
+
+.cover{position:relative; text-align:center;}
 
 td{vertical-align:top}
 
@@ -99,7 +105,7 @@ strong{background-color:#fff6de;font-weight:normal}
 
 .intro{max-width:72%}
 
-.intro .intro-title{font-size:2.2rem;margin-top:0;margin-bottom:20px;margin-top:20px;line-height:1.2;font-weight:600;color:#111;letter-spacing:0.05rem}
+.intro .intro-title{font-size:2.2rem;margin-top:0;margin-bottom:20px;margin-top:20px;line-height:1.2;font-weight:600;color:#303030;letter-spacing:0.05rem}
 
 .intro .intro-main{margin-top:0;font-size:1.2rem;font-weight:400;line-height:1.6;color:#444}
 
@@ -107,19 +113,19 @@ main,footer,.nav-container{display:block;margin:0 auto;max-width:820px;width:90%
 
 .nav{overflow:auto}
 
-.nav-container{margin:30px auto;position:relative;text-align:center}
+.nav-container{margin:30px auto;position:relative;text-align:left}
 
-.nav-title{color:#111;display:inline-block;margin:0;width:80px;height:84px}
+.nav-title{color:#303030;display:inline-block;margin:0;width:80px;height:84px;}
 
 .nav ul{list-style-type:none;margin:1rem 0 0;padding:0;text-align:center}
 
-.nav li{color:#111;display:inline-block;opacity:.6;padding:0 2rem 0 0}
+.nav li{color:#303030;display:inline-block;opacity:.6;padding:0 2rem 0 0}
 
 .nav li:last-child{padding-right:0}
 
 .nav li:hover,.nav li:focus{opacity:1}
 
-.nav a{color:#111;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif}
+.nav a{color:#303030;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif}
 
 .nav ul{bottom:35px;position:absolute;right:0}
 
@@ -133,11 +139,13 @@ footer span{color:#aaa; font-size:0.92rem;}
 
 .post-info span{font-style:italic}
 
-.post-title{color:#111;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;font-size:2.4rem;font-weight:600;margin:4rem 0 3rem 0;text-align:left}
+.post-title{color:#303030;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;font-size:2.4rem;font-weight:600;margin:4rem 0 3rem 0;text-align:left}
 
 .post-line{border-top:0.4rem solid #444;display:block;margin:0 auto 3rem;width:4rem}
 
-.post p{margin:0 0 1.6rem;font-size:1.1rem;line-height:1.6}.post img{margin:1.5rem auto}
+.post p{margin:0 0 1.6rem;font-size:1.1rem;line-height:1.6}
+
+.post img{margin:1.5rem auto}
 
 .post img+em{color:#aaa;display:block;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;font-size:0.9rem;font-style:normal;text-align:center}
 
@@ -153,11 +161,11 @@ footer span{color:#aaa; font-size:0.92rem;}
 
 .pagination span{color:#444;font-size:1.1rem}
 
-.pagination .top{-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;transition:all 0.3s ease-out;color:#111;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;font-size:1.1rem;opacity:.6}
+.pagination .top{-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;transition:all 0.3s ease-out;color:#303030;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;font-size:1.1rem;opacity:.6}
 
 .pagination .top:hover{opacity:1}
 
-.pagination .arrow{-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;transition:all 0.3s ease-out;color:#111;position:absolute}
+.pagination .arrow{-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;transition:all 0.3s ease-out;color:#303030;position:absolute}
 
 .pagination .arrow:hover,.pagination .arrow:focus{opacity:.6;text-decoration:none}
 
@@ -167,7 +175,7 @@ footer span{color:#aaa; font-size:0.92rem;}
 
 .featured-project{margin-bottom:80px}
 
-.featured-project .list-title{font-size:1.5rem;font-weight:600;color:#111;margin:5px 0;letter-spacing:0.04rem}
+.featured-project .list-title{font-size:1.5rem;font-weight:600;color:#303030;margin:5px 0;letter-spacing:0.04rem}
 
 .featured-project .list-summary{font-size:1.1rem;color:#979797;margin:0}.highlight .hll{background-color:#ffc}
 
