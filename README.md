@@ -1,2 +1,2 @@
-# This is the portfolio of GlintonLiao
-Powered by GitHub
+# Portfolio
+Designed and Coded by Guotong Liao
