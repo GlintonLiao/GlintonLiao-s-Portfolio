@@ -71,11 +71,13 @@ h1{font-size:1.9rem}
 
 h2{margin-top:4rem}
 
-h3{font-size:1.34em;margin-bottom:1.5rem}
+h3{font-size:1.34em;margin-bottom:1rem}
 
 p{color: #404040; font-weight: 100;}
 
 label{margin-bottom: 0,5rem; font-size: 17px; display: block;}
+
+.caption{position: relative; text-align: center; color: #909090; font-size: 0.5rem;}
 
 a{color:#303030;text-decoration:none}
 
@@ -95,7 +97,7 @@ blockquote{margin-bottom: 25px; margin-top: 20px;
 
 ul,ol{margin:0 0 2rem -1.1rem;font-size:1.1rem;line-height:1.6}
 
-img{margin:0 0 0.6rem; max-width:100%; text-align:center }
+img{margin:0 0 0.3rem; max-width:100%; text-align:center }
 
 .cover{position:relative; text-align:center;}
 
@@ -160,7 +162,7 @@ footer span{color:#aaa; font-size:0.92rem;}
 
 .post p{margin:0 0 1.6rem;font-size:1.1rem;line-height:1.6}
 
-.post img{margin:1.5rem auto}
+.post img{margin:0.5rem auto}
 
 .post img+em{color:#aaa;display:block;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;font-size:0.9rem;font-style:normal;text-align:center}
 
