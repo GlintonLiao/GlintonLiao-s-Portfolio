@@ -79,6 +79,15 @@ label{margin-bottom: 0,5rem; font-size: 17px; display: block;}
 
 .caption{position: relative; text-align: center; color: #909090; font-size: 0.5rem;}
 
+.grid-intro{
+    display: grid;
+    justify-content: stretch;
+    justify-items: stretch;
+    grid-column-gap: 50px;
+    grid-row-gap: 66px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 a{color:#303030;text-decoration:none}
 
 a:hover{background-color:#FFEDBB}
