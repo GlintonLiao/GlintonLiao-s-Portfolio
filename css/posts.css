@@ -67,17 +67,17 @@ body{-webkit-text-size-adjust:100%}
 
 h1,h2,h3,h4,h5,h6{color:#303030;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;line-height:normal;font-weight:700;margin:2.4rem 0 0.8rem 0}
 
-h1{font-size:1.9rem}
+h1{font-size:2.1rem}
 
-h2{margin-top:4rem}
+h2{font-size:1.8rem; margin-top:4rem; margin-bottom: 2rem;}
 
 h3{font-size:1.34em;margin-bottom:1rem}
 
-p{color: #404040; font-weight: 100;}
+p{color: #404040; font-weight: 350;}
 
 label{margin-bottom: 0,5rem; font-size: 17px; display: block;}
 
-.caption{position: relative; text-align: center; color: #909090; font-size: 0.5rem;}
+.caption{position: relative; text-align: center; color: #909090; font-size: 0.3rem;}
 
 .grid-intro{
     display: grid;
@@ -86,6 +86,24 @@ label{margin-bottom: 0,5rem; font-size: 17px; display: block;}
     grid-column-gap: 50px;
     grid-row-gap: 66px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 900px) {
+    .grid-intro{
+        display: grid;
+        text-align: center;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .grid-intro{
+        display: block;
+        text-align: center;
+    }
 }
 
 a{color:#303030;text-decoration:none}
@@ -165,7 +183,7 @@ footer span{color:#aaa; font-size:0.92rem;}
 
 .post-info span{font-style:italic}
 
-.post-title{color:#303030;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;font-size:2.4rem;font-weight:600;margin:4rem 0 3rem 0;text-align:left}
+.post-title{color:#303030;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;font-size:2.6rem;font-weight:600;margin:4rem 0 3rem 0;text-align:left}
 
 .post-line{border-top:0.4rem solid #444;display:block;margin:0 auto 3rem;width:4rem}
 

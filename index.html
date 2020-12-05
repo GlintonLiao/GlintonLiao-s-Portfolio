@@ -15,42 +15,74 @@
       name="keywords"
       content="Guotong, liao, art , design, design,  design, ux design, art, graphic design, interaction design"
     />
-    <meta name="robots" content="index, follow" />
-    <link rel="stylesheet" href="#" />
-    <link rel="stylesheet" href="css/zoom.css" />
+    <link rel="stylesheet" href="/css/landingpage.css" />
+
+    <script src="/js/landing.js"></script> 
+  
+
   </head>
-    <main>
-      <p>
-        <span class="bio">
-          Guotong is an interaction designer.
-          <!-- He is currently a student at the Carnegie Mellon
-          <a target="_blank" href="https://design.cmu.edu/">School of Design</a>
-          and
-          <a target="_blank" href="https://www.hcii.cmu.edu/"
-            >Human-Computer Interaction Institute</a
-          >. <br /><br />Previously at
-          <a target="_blank" href="https://www.apple.com/siri/">Apple</a>
-          [S’20], he now spends his time designing interfaces with
-          <a target="_blank" href="https://www.natural.ai"
-            >Brain Technologies</a
-          >
-          [F'20]. In an alternative life, he would like to be a furniture
-          designer or maybe a dog trainer. -->
-        </span>
-      </p>
+  
+    
+  <body>
+   <main>
+      <section class="first">
+        <div class="intro">
+          <h1 id="n">Guotong Liao</h1><br>
+          <h2 id="i">A Human-center designer</h2>
+        </div> 
+      </section>
+
+      <section class="second">
+        <div id="archi">
+          <div id="textschange">
+            <h1>He designs</h1>
+            <h1 id="architecture">Architecture</h1>
+            <h1 id="illustrations">Illustrations</h1>
+
+          </div>
+
+
+          <div>
+            
+            <div id="img1">
+              <img src="/img/Poetry of Triangle/Perspective03.jpg">
+            </div>
+
+            <div id="img2">
+              <img src="/img/Digital Artworks/Beach.jpg">
+            </div>
+
+            <div id="img3">
+              <img src="/img/Digital Artworks/Ichi-go ichi-e.jpg">
+            </div>
+
+            
+          </div>
+
+        </div>
+      </section>
+
+      <section class="third">
+        <div class="UX">
+          <h1> and <br> User Experience</h1>
+
+          <div>
+            <img src="/img/Pendulum Parking/Filter.png">
+          </div>
+
+        </div>
+      </section>
+
+      <section class="final">
+        <div class="projects">
+          <h1>Come and find more!</h1>
+          <a href="/Posts/Protect Winterfell.html" class="button">Selected Projects</a>
+        </div>
+      </section>
+
     </main>
   
-    <div>
-      <img src="img/User Portrait.png" data-action="zoom">
-    </div>
-  
     <footer>
-      <!-- <p></p> -->
-      <!-- <a
-        target="_blank"
-        href="https://www.notion.so/Design-Archives-93be304932f64d3eb2500d6903915ce4"
-        >Project Archives</a
-      > -->
       <a
         target="_blank"
         href="#"
@@ -69,27 +101,6 @@
       <a target="_blank" href="#">CV</a>
     </footer>
 
-    <div class="wrap">
-      <div class="ball"></div>
-    </div>
   </body>
-  <script
-    src="https://code.jquery.com/jquery-3.5.1.js"
-    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-    crossorigin="anonymous"
-  ></script>
-  <script src="js/zoom.js"></script>
-  <script src="js/transition.js"></script>
-  <script>
-    jQuery(function ($) {
-      $("a").hover(
-        function () {
-          $(".ball").addClass("ballHighlighted");
-        },
-        function () {
-          $(".ball").removeClass("ballHighlighted");
-        }
-      );
-    });
-  </script>
+  
 </html>

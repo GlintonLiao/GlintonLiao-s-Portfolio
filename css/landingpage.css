@@ -1,0 +1,86 @@
+html {
+    height: 3000px;
+}
+
+.button {
+    position: relative;
+    width: 30%;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgba(77, 77, 77, 0.85);
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+
+.button:hover {
+    transition: background-color 200ms ease, opacity 200ms ease;
+    color: #4d4d4d;
+}
+
+img {
+    margin:0 0 2rem; 
+    width:600px; 
+    text-align:center 
+}
+
+#img1{
+    z-index: -10;
+}
+
+body {
+    font-family: Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+h1 {
+    color:rgb(58, 58, 58);
+    font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;
+    font-size: 4.5rem;
+    line-height:normal;
+    font-weight:700;
+    margin:2.4rem 0 0.8rem 0;
+    width:100% ;
+}
+
+h2 { 
+    color:rgb(58, 58, 58);
+    font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;
+    font-size: 2rem;
+    line-height:normal;
+    font-weight:700;
+    margin:2.4rem 0 0.8rem 0
+}
+
+.first, .final{
+    height: 100vh;
+}
+
+.second, .third {
+    height: 1080px;
+}
+
+.third {
+    margin-top: 900px;
+}
+
+.intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    top: 30%;
+    transform: translate(0, 50%);
+    margin: 0;
+}
+
+#textschange {
+    position: sticky;
+    top: 7rem;
+}
+
+
