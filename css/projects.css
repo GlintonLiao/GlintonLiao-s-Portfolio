@@ -25,6 +25,8 @@ ul a {
 ul a:hover {background-color:#FFEDBB}
 
 
+
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -163,7 +165,7 @@ footer {
 .wechat-button {
     width: 40px;
     height: 40px;
-    margin-right: 10px;
+    margin: 5px;
     border-radius: 6px;
     background-color: transparent;
     background-image: url(/img/Projects/WeChat.png);
@@ -176,7 +178,7 @@ footer {
 .wechat-button:hover {
     width: 40px;
     height: 40px;
-    margin-right: 10px;
+    margin: 5px;
     border-radius: 6px;
     background-color: rgba(45, 193, 0, 0.97);
     background-image: url(/img/Projects/WeChat-hover.png);
@@ -189,7 +191,7 @@ footer {
 .linkedin-button {
     width: 40px;
     height: 40px;
-    margin-right: 10px;
+    margin: 5px;
     border-radius: 6px;
     background-color: transparent;
     background-image: url(/img/Projects/Linkedin.png);
@@ -202,7 +204,7 @@ footer {
 .linkedin-button:hover {
     width: 40px;
     height: 40px;
-    margin-right: 10px;
+    margin: 5px;
     border-radius: 6px;
     background-color: #0077b4;
     background-image: url(/img/Projects/Linkedin-hover.png);
@@ -215,7 +217,7 @@ footer {
 .ig-button {
     width: 40px;
     height: 40px;
-    margin-right: 10px;
+    margin: 5px;
     border-radius: 6px;
     background-color: transparent;
     background-image: url(/img/Projects/IG.png);
@@ -228,7 +230,7 @@ footer {
 .ig-button:hover {
     width: 40px;
     height: 40px;
-    margin-right: 10px;
+    margin: 5px;
     border-radius: 6px;
     background-color: #fe6637;
     background-image: url(/img/Projects/IG-hover.png);

@@ -67,11 +67,13 @@ body{-webkit-text-size-adjust:100%}
 
 h1,h2,h3,h4,h5,h6{color:#303030;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;line-height:normal;font-weight:700;margin:2.4rem 0 0.8rem 0}
 
-h1{font-size:2.1rem}
+h1{font-size:2.1rem;}
 
 h2{font-size:1.8rem; margin-top:4rem; margin-bottom: 2rem;}
 
 h3{font-size:1.34em;margin-bottom:1rem}
+
+h4{font-size: 1.2rem;}
 
 p{color: #404040; font-weight: 350;}
 
@@ -109,6 +111,8 @@ label{margin-bottom: 0,5rem; font-size: 17px; display: block;}
 a{color:#303030;text-decoration:none}
 
 a:hover{background-color:#FFEDBB}
+
+.icon:hover{background-color: #fff;}
 
 blockquote{margin-bottom: 25px; margin-top: 20px;
     margin-left: 1px;
@@ -183,7 +187,7 @@ footer span{color:#aaa; font-size:0.92rem;}
 
 .post-info span{font-style:italic}
 
-.post-title{color:#303030;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;font-size:2.6rem;font-weight:600;margin:4rem 0 3rem 0;text-align:left}
+.post-title{color:#303030;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif;font-size:2.6rem;font-weight:700;margin:4rem 0 3rem 0;text-align:left}
 
 .post-line{border-top:0.4rem solid #444;display:block;margin:0 auto 3rem;width:4rem}
 
@@ -219,140 +223,87 @@ footer span{color:#aaa; font-size:0.92rem;}
 
 .pagination .right{right:0}
 
-.featured-project{margin-bottom:80px}
-
-.featured-project .list-title{font-size:1.5rem;font-weight:600;color:#303030;margin:5px 0;letter-spacing:0.04rem}
-
-.featured-project .list-summary{font-size:1.1rem;color:#979797;margin:0}.highlight .hll{background-color:#ffc}
-
-.highlight .c{color:#999}
-
-.highlight .err{color:#a00;background-color:#faa}
-
-.highlight .k{color:#069}
-
-.highlight .o{color:#555}
-
-.highlight .cm{color:#09f;font-style:italic}
-
-.highlight .cp{color:#099}
-
-.highlight .c1{color:#999}
-
-.highlight .cs{color:#999}
-
-.highlight .gd{background-color:#fcc;border:1px solid #c00}
-
-.highlight .ge{font-style:italic}
-
-.highlight .gr{color:red}
-
-.highlight .gh{color:#030}
-
-.highlight .gi{background-color:#cfc;border:1px solid #0c0}
-
-.highlight .go{color:#aaa}
-
-.highlight .gp{color:#009}
-
-.highlight .gu{color:#030}
-
-.highlight .gt{color:#9c6}
-
-.highlight .kc{color:#069}
-
-.highlight .kd{color:#069}
-
-.highlight .kn{color:#069}
-
-.highlight .kp{color:#069}
-
-.highlight .kr{color:#069}
-
-.highlight .kt{color:#078}
-
-.highlight .m{color:#f60}
-
-.highlight .s{color:#d44950}
-
-.highlight .na{color:#4f9fcf}
-
-.highlight .nb{color:#366}
-
-.highlight .nc{color:#0a8}
-
-.highlight .no{color:#360}
-
-.highlight .nd{color:#99f}
-
-.highlight .ni{color:#999}
-
-.highlight .ne{color:#c00}
-
-.highlight .nf{color:#c0f}
-
-.highlight .nl{color:#99f}
-
-.highlight .nn{color:#0cf}
-
-.highlight .nt{color:#2f6f9f}
-
-.highlight .nv{color:#033}
-
-.highlight .ow{color:#000}
-
-.highlight .w{color:#bbb}
-
-.highlight .mf{color:#f60}
-
-.highlight .mh{color:#f60}
-
-.highlight .mi{color:#f60}
-
-.highlight .mo{color:#f60}
-
-.highlight .sb{color:#c30}
-
-.highlight .sc{color:#c30}
-
-.highlight .sd{color:#c30;font-style:italic}
-
-.highlight .s2{color:#c30}
-
-.highlight .se{color:#c30}
-
-.highlight .sh{color:#c30}
-
-.highlight .si{color:#a00}
-
-.highlight .sx{color:#c30}
-
-.highlight .sr{color:#3aa}
-
-.highlight .s1{color:#c30}
-
-.highlight .ss{color:#fc3}
-
-.highlight .bp{color:#366}
-
-.highlight .vc{color:#033}
-
-.highlight .vg{color:#033}
-
-.highlight .vi{color:#033}
-
-.highlight .il{color:#f60}
-
-.css .o,.css .o+.nt,.css .nt+.nt{color:#999}
-
-pre,code{font-family:Menlo,Monaco,monospace}
-
-code{background-color:#f9f9f9;border-radius:3px;color:#bf616a;font-size:85%;padding:.25em .5em}pre{margin:0 0 1rem}
-
-pre code{background-color:transparent;color:inherit;font-size:100%;padding:0}
-
-.highlight{background-color:#f9f9f9;border-radius:3px;line-height:1.4;margin:0 0 1rem;padding:1rem}
-
-.highlight pre{margin-bottom:0;overflow-x:auto}
-
-.highlight .lineno{color:#aaa;display:inline-block;padding:0 .75rem 0 .25rem;-webkit-user-select:none;-moz-user-select:none;user-select:none}
+.contact{
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+
+}
+
+.wechat-button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: transparent;
+    background-image: url(/img/Projects/WeChat.png);
+    background-position: 1px 0px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    transition: all 300ms ease;
+}
+
+.wechat-button:hover {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: rgba(45, 193, 0, 0.97);
+    background-image: url(/img/Projects/WeChat-hover.png);
+    background-position: 1px 0px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    transition: all 300ms ease;
+}
+
+.linkedin-button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: transparent;
+    background-image: url(/img/Projects/Linkedin.png);
+    background-position: 50% 50%;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    transition: all 300ms ease;
+}
+
+.linkedin-button:hover {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: #0077b4;
+    background-image: url(/img/Projects/Linkedin-hover.png);
+    background-position: 50% 50%;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    transition: all 300ms ease;
+}
+
+.ig-button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: transparent;
+    background-image: url(/img/Projects/IG.png);
+    background-position: 49% 50%;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    transition: all 300ms ease;
+}
+
+.ig-button:hover {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: #fe6637;
+    background-image: url(/img/Projects/IG-hover.png);
+    background-position: 49% 50%;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    transition: all 300ms ease;
+}
