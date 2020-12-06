@@ -1,5 +1,5 @@
 html {
-    height: 3000px;
+    height: 2500px;
 }
 
 .button {
@@ -10,20 +10,32 @@ html {
     border-width: 1.5px;
     border-color: rgba(77, 77, 77, 0.85);
     border-radius: 20px;
-    background-color: #fff;
+    background-color: #e0e0e0;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 500;
+    padding: 15px 20px;
+    margin-top: 300px;
+    text-decoration: none;
+    color: rgb(63, 63, 63);
 }
 
 .button:hover {
-    transition: background-color 200ms ease, opacity 200ms ease;
-    color: #4d4d4d;
+    transition: background-color 300ms ease, color 300ms ease;
+    color: #ffffff;
+    background-color: rgb(63, 63, 63);
 }
+
+
 
 img {
     margin:0 0 2rem; 
     width:600px; 
     text-align:center 
+}
+
+#icon {
+    width:250px;
 }
 
 #unicorn {
@@ -60,16 +72,49 @@ h2 {
     margin:2.4rem 0 0.8rem 0
 }
 
-.first, .final{
+.first {
     height: 100vh;
 }
 
-.second, .third {
+.second {
     height: 1080px;
+    margin-top: 300px;
 }
 
 .third {
-    margin-top: 900px;
+    margin-top: 1000px;
+    height: 1800px;
+}
+
+#hardware {
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: -700px;
+}
+
+#ui{
+    opacity: 0;
+}
+
+ul li img {
+    height: auto;
+    width: 450px;
+    margin: 0;
+    margin-top:8px;
+}
+
+.final {
+    height: 700px;
+}
+
+.projects {
+    margin-bottom: 100px;
 }
 
 .intro {
@@ -78,7 +123,7 @@ h2 {
     left: 0;
     text-align: center;
     width: 100%;
-    top: 30%;
+    top: 0;
     transform: translate(0, 50%);
     margin: 0;
 }
@@ -86,6 +131,7 @@ h2 {
 #textschange {
     position: sticky;
     top: 7rem;
+    margin-bottom: -50px;
 }
 
 

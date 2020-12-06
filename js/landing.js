@@ -10,9 +10,14 @@ window.addEventListener("scroll", (e) => {
     let $i = document.querySelector("#i");
 
     let $intro = document.querySelector(".intro");
-  
+    let $icon = document.querySelector("#icon");
+
+    let $ui = document.querySelectorAll("#ui");
+
+    
     if (scrolled >= 0.01) {
         $intro.style.filter = "blur" + "(" + scrolled * 1.5 + "px"+ ")"; 
+        $icon.style.transform = "translateY" + "(" + scrolled * -1 * 1200 + "px" + ")";
         $n.style.transform = "translateY" + "(" + scrolled * -1 * 1000 + "px" + ")";
         $i.style.transform = "translateY" + "(" + scrolled * -1 * 600 + "px" + ")";
     } else {
@@ -32,6 +37,18 @@ window.addEventListener("scroll", (e) => {
         $architecture.style.opacity = 0;
         $illustrations.style.opacity = 1;
     };
+
+
+    
+
+
+    if (scrolled >= 0.5) {
+        $ui.style.opacity = 1;
+    };
+
+
+
+
 
 
 });
