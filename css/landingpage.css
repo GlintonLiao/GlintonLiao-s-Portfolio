@@ -26,6 +26,11 @@ img {
     text-align:center 
 }
 
+#unicorn {
+    width: 100px;
+    height: 100px;
+}
+
 #img1{
     z-index: -10;
 }

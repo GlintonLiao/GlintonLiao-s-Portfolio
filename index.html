@@ -17,7 +17,8 @@
     />
     <link rel="stylesheet" href="/css/landingpage.css" />
 
-    <script src="/js/landing.js"></script> 
+    <script src="/js/landing.js"></script>
+    
   
 
   </head>
@@ -27,6 +28,8 @@
    <main>
       <section class="first">
         <div class="intro">
+          <div id="unicorn"></div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.6/lottie.min.js"></script>
           <h1 id="n">Guotong Liao</h1><br>
           <h2 id="i">A Human-center designer</h2>
         </div> 
@@ -102,5 +105,15 @@
     </footer>
 
   </body>
+
+  <script>
+     var animation = bodymovin.loadAnimation({
+       container: document.getElementsById("unicorn"), // the dom element that will contain the animation
+       renderer: 'svg',
+       loop: true,
+       autoplay: true,
+       path: 'Unicorn.json' // the path to the animation json
+      });
+  </script>
   
 </html>
