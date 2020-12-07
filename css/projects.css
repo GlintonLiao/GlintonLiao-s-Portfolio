@@ -83,7 +83,7 @@ main,footer,.nav-container{display:block;margin:0 auto;max-width:820px;width:90%
 
 .nav a{color:#303030;font-family:Rubik,-apple-system,BlinkMacSystemFont,Helvetica Neue,Noto Sans CJK SC,sans-serif}
 
-.nav ul{bottom:35px;position:absolute;right:0}
+.nav ul{bottom:35px;position:absolute;right:0; font-size: 1.1rem;}
 
 html, body { color:#444;margin:0;padding:0}
 
