@@ -100,17 +100,17 @@ h2 {
     padding: 0;
     text-align: center;
     margin-top: -730px;
-    --progress: var(--progress);
+    --progress: 0;
 }
 
 
 #ui ul li img{
     height: auto;
     width: 450px;
-    margin: 0;
-    margin-top:8px;
-    transform: scale( calc ( 1.8 - ( 0.8 * var(--progress))));
+    margin: 7px 0;
+    transform: scale(calc( 1.8 - ( 0.8 * var(--progress)))) translateY(calc( -60px * ( 1 - var(--progress))));
     opacity: var(--progress);
+
 }
 
 .final {

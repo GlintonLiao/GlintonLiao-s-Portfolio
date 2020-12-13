@@ -15,7 +15,7 @@ window.addEventListener("scroll", (e) => {
 
     
     if (scrolled >= 0.01) {
-        $intro.style.filter = "blur" + "(" + scrolled * 1.5 + "px"+ ")"; 
+        $intro.style.filter = "blur" + "(" + scrolled * 2 + "px"+ ")"; 
         $icon.style.transform = "translateY" + "(" + scrolled * -1 * 1200 + "px" + ")";
         $n.style.transform = "translateY" + "(" + scrolled * -1 * 1000 + "px" + ")";
         $i.style.transform = "translateY" + "(" + scrolled * -1 * 600 + "px" + ")";
@@ -37,30 +37,25 @@ window.addEventListener("scroll", (e) => {
         $illustrations.style.opacity = 1;
     };
 
-
-
-
-
-
-});
-
-const rows = document.querySelectorAll("#ui ul li");
-const html = document.documentElement;
-
-document.addEventListener("scroll", (e) => {
-  let scrolled = html.scrollTop / (html.scrollHeight - html.clientHeight);
-
-  let total = 1 / rows.length;
-
-  for (let [index, row] of rows.entries()) {
-    let start = total * index;
-    let end = total * (index + 1);
+    let rows = document.querySelectorAll("#ui ul li");
+    let total = 1 / rows.length ;
+  
+    for (let[index, row] of rows.entries()) {
+    let start = 0.65 + (0.2 *(total * index));
+    let end = 0.65 + (0.2 * total * (index + 1));
 
     let progress = (scrolled - start) / (end - start);
-    if (progress >= 1) progress = 1;
-    if (progress <= 0) progress = 0;
 
-    row.style.setProperty("--progress", progress);
-  }
+    if (progress >= 1) {
+        progress = 1;
+    };
+
+    if (progress <= 0) 
+    {progress = 0;
+    };
+
+    row.style.setProperty("--progress", progress);}
+
+
 });
 
