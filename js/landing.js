@@ -20,7 +20,7 @@ window.addEventListener("scroll", (e) => {
   if (scrolled >= 0.01) {
     $intro.style.filter = "blur" + "(" + scrolled * 2 + "px" + ")";
     $icon.style.transform =
-      "translateY" + "(" + scrolled * -1 * 1200 + "px" + ")";
+      "translateY" + "(" + scrolled * -1 * 1800 + "px" + ")";
     $n.style.transform = "translateY" + "(" + scrolled * -1 * 1000 + "px" + ")";
     $i.style.transform = "translateY" + "(" + scrolled * -1 * 600 + "px" + ")";
   } else {
